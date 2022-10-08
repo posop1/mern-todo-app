@@ -1,8 +1,18 @@
+import { Route, Routes } from 'react-router-dom';
+
+import HomePage from './pages/HomePage/HomePage';
+import TodosPage from './pages/TodosPage/TodosPage';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+
 function App() {
   return (
-    <div className="App">
-      <h1>asdasd</h1>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/todos" element={<TodosPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </>
   );
 }
 

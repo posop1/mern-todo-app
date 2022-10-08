@@ -1,0 +1,41 @@
+.HomePage {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  margin-bottom: 15px;
+  color: #5e5e5e;
+}
+.sublogo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  margin-bottom: 30px;
+  color: #5e5e5e;
+}
+.link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-decoration: none;
+  color: #ffffff;
+  background: #b47aea;
+  border-radius: 15px;
+  padding: 8px 15px;
+}
