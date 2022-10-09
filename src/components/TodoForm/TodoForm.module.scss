@@ -10,18 +10,44 @@ input {
     margin-top: 0;
   }
 }
+.form__input {
+  background: none;
+  font-size: 20px;
+  border: 3px solid #b47aea;
+  padding: 5px 15px;
+  border-radius: 15px;
+  outline: none;
+}
 .form__button {
-    
-
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  border: none;
+  background: none;
+  color: #b47aea;
+}
+.icon {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10px;
   line-height: 29px;
   /* identical to box height */
   text-decoration: none;
   color: #ffffff;
   background: #b47aea;
-  border-radius: 15px;
-  padding: 8px 15px;
+  border-radius: 70%;
+  padding: 0;
+  padding: 8px;
   border: none;
 }
