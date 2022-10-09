@@ -1,4 +1,5 @@
 import TodoForm from '../../components/TodoForm/TodoForm';
+import TodoList from '../../components/TodoList/TodoList';
 import styles from './TodosPage.module.scss';
 
 const TodosPage = () => {
@@ -9,6 +10,7 @@ const TodosPage = () => {
           <h1>TaskDo</h1>
         </div>
         <TodoForm />
+        <TodoList />
       </div>
     </div>
   );

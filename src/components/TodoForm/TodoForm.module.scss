@@ -31,6 +31,8 @@ input {
   border: none;
   background: none;
   color: #b47aea;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 .icon {
   align-self: flex-end;
@@ -50,4 +52,10 @@ input {
   padding: 0;
   padding: 8px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: black;
+  }
 }
